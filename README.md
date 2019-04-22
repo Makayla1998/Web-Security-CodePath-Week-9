@@ -112,7 +112,7 @@ Steps to recreate:
  
  Steps to recreate:
     1. I was able to insert ```<script>document.location="https://www.google.com"</script>``` into the feedback page form to redirect the user to a new URL.
-    2. I am pretty sure that inserting ```<script>document.cookie = "username=Jonny";</script>``` into the form would set cookie data and inserting ```<script>alert(document.cookie);</script>``` into the form would read cookie data. However, I was unable to test the XSS because I wasn't able to reset the feedback page therefore the URL redirection is executed before the cookie script can run.
+     2. I am pretty sure that inserting ```<script>document.cookie = "username=Jonny";</script>``` into the form would set cookie data and inserting ```<script>alert(document.cookie);</script>``` into the form would read cookie data. However, I was unable to test the XSS because I wasn't able to reset the feedback page therefore the URL redirection is executed before the cookie script can run.
     
   ![](Bonus-1.gif)
   
